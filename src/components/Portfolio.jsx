@@ -44,6 +44,12 @@ const Portfolio = () => {
       demo: "https://restaurantitaly.netlify.app/",
       code: "https://github.com/KomilovTemur/restaurant",
     },
+    {
+      src: "https://i.ibb.co/ydyBpjz/Screenshot-2022-11-22-182424.png",
+      projectName: "Reusable components",
+      demo: "https://reusable-components-react-js.netlify.app/",
+      code: "https://github.com/KomilovTemur/reusable-components-react",
+    },
   ];
   return (
     <div

@@ -10,15 +10,19 @@ export default function Home() {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row ">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">I'm a Full Stack developer</h2>
+          <h2 className="text-4xl sm:text-7xl font-bold text-white">
+            I'm a Full Stack developer
+          </h2>
           <p className="text-gray-300 py-4 max-w-md">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-            temporibus, dolores blanditiis perferendis officiis id nemo
-            explicabo quibusdam! Eos ullam aut quod sint tempora suscipit?
+            Hi, my name is Temur, I'm 18 years old, and I'm a full stack
+            javascript developer, currently working on my own projects. I want
+            to be a great senior developer in the future!
           </p>
-          <button className="group w-fit px-6 py-3 my-2 flex items-center rounded-md text-white
+          <button
+            className="group w-fit px-6 py-3 my-2 flex items-center rounded-md text-white
           bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer
-          ">
+          "
+          >
             Portfolio
             <span className="ml-2 group-hover:rotate-90 duration-300">
               <MdOutlineKeyboardArrowRight size={20} />
@@ -26,9 +30,13 @@ export default function Home() {
           </button>
         </div>
         <div>
-          <img src={HeroImage} alt="tim" className="rounded-2xl mx-auto w-2/3 md:w-full" />
+          <img
+            src={HeroImage}
+            alt="tim"
+            className="rounded-2xl mx-auto w-2/3 md:w-full"
+          />
         </div>
       </div>
     </div>
   );
-};
+}

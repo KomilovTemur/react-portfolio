@@ -63,8 +63,7 @@ const Portfolio = () => {
       projectName: "Books Libary Api",
       demo: "https://documenter.getpostman.com/view/25011836/2s8Z6u3ZeZ",
       code: "https://github.com/KomilovTemur/my-api-MERN",
-    }
-    // 
+    } 
   ];
   return (
     <div

@@ -6,6 +6,11 @@ import javascript from "../assets/javascript.png";
 import node from "../assets/node.png";
 import reactJs from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
+import mongoDb from "../assets/mongodb.png"
+import socketio from "../assets/socketio.png"
+import expressjs from "../assets/expressjs.png"
+import redis from "../assets/redis.png"
+import linux from "../assets/linux.png"
 
 const Experience = () => {
   const techs = [
@@ -43,6 +48,31 @@ const Experience = () => {
       src: node,
       title: "NodeJs",
       style: "shadow-green-500",
+    },
+    {
+      src: mongoDb,
+      title: "MongoDb",
+      style: "shadow-white",
+    },
+    {
+      src: socketio,
+      title: "socketio",
+      style: "shadow-black",
+    },
+    {
+      src: expressjs,
+      title: "ExpresJs",
+      style: "shadow-white",
+    },
+    {
+      src: redis,
+      title: "Redis",
+      style: "shadow-red-500",
+    },
+    {
+      src: linux,
+      title: "Linux",
+      style: "shadow-blue-500",
     },
   ];
   return (

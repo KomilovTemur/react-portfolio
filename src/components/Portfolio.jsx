@@ -5,6 +5,7 @@ import firebaseAuth from "../assets/portfolio/firebaseAuth.png";
 import yelpApp from "../assets/portfolio/yelpApp.png";
 import pokeDex from "../assets/portfolio/pokedex.png";
 import restaurant from "../assets/portfolio/restaurant.png";
+import basicapi from "../assets/portfolio/basicapi.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -50,6 +51,12 @@ const Portfolio = () => {
       demo: "https://reusable-components-react-js.netlify.app/",
       code: "https://github.com/KomilovTemur/reusable-components-react",
     },
+    {
+      src: basicapi,
+      projectName: "Basic REST Api",
+      // demo: "https://reusable-components-react-js.netlify.app/",
+      code: "https://github.com/KomilovTemur/basic-rest-api",
+    }
   ];
   return (
     <div

@@ -6,6 +6,7 @@ import yelpApp from "../assets/portfolio/yelpApp.png";
 import pokeDex from "../assets/portfolio/pokedex.png";
 import restaurant from "../assets/portfolio/restaurant.png";
 import basicapi from "../assets/portfolio/basicapi.png";
+import bookLibaryApi from "../assets/portfolio/bookLibaryApi.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -56,7 +57,14 @@ const Portfolio = () => {
       projectName: "Basic REST Api",
       // demo: "https://reusable-components-react-js.netlify.app/",
       code: "https://github.com/KomilovTemur/basic-rest-api",
+    },
+    {
+      src: bookLibaryApi,
+      projectName: "Books Libary Api",
+      demo: "https://documenter.getpostman.com/view/25011836/2s8Z6u3ZeZ",
+      code: "https://github.com/KomilovTemur/my-api-MERN",
     }
+    // 
   ];
   return (
     <div

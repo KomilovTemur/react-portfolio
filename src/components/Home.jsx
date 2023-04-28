@@ -3,6 +3,8 @@ import HeroImage from "../assets/heroImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
 export default function Home() {
+  let yearOfBirth = 2004
+  let myAge = new Date().getFullYear() - yearOfBirth
   return (
     <div
       name="home"
@@ -14,7 +16,7 @@ export default function Home() {
             I'm a Full Stack developer
           </h2>
           <p className="text-gray-300 py-4 max-w-md">
-            Hi, my name is Temur, I'm 18 years old, and I'm a full stack
+            Hi, my name is Temur, I'm { myAge } years old, and I'm a full stack
             javascript developer, currently working on my own projects. I want
             to be a great senior developer in the future!
           </p>

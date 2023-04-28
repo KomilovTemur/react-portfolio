@@ -13,21 +13,17 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil omnis
-          consectetur deserunt voluptatem cum repellat et iusto totam aperiam
-          non officiis, saepe alias? Eaque sint nesciunt ullam, eius eligendi
-          asperiores minima quis! Atque odio, itaque recusandae deleniti commodi
-          voluptatem reprehenderit voluptas excepturi impedit non tempora
-          voluptates illum explicabo molestias veritatis!
+          My main occupation is web programming. My experience in this field is high. I have also participated in major projects and StartUPs in my field. I can create websites, Frontend, Backend and desktop version of sites. I have worked with many companies, teams and clients.
+
         </p>
         <br />
         <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe
-          reprehenderit aliquid tempore sapiente! Consequuntur quo earum
-          doloribus? Nostrum tempore aliquid vel doloremque minima rerum. Maxime
-          tenetur impedit, nesciunt nemo perferendis corrupti. Aperiam fuga
-          quasi voluptatem itaque iste saepe optio enim facere, quod omnis, ad
-          architecto, expedita distinctio doloribus molestiae alias.
+          {/*Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe*/}
+          {/*reprehenderit aliquid tempore sapiente! Consequuntur quo earum*/}
+          {/*doloribus? Nostrum tempore aliquid vel doloremque minima rerum. Maxime*/}
+          {/*tenetur impedit, nesciunt nemo perferendis corrupti. Aperiam fuga*/}
+          {/*quasi voluptatem itaque iste saepe optio enim facere, quod omnis, ad*/}
+          {/*architecto, expedita distinctio doloribus molestiae alias.*/}
         </p>
       </div>
     </div>

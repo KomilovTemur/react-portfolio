@@ -117,7 +117,7 @@ const Portfolio = () => {
                   <a
                     aria-disabled="true"
                     className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-bold text-gray-500 cursor-default"
-                  >
+                  >,
                     Code
                   </a>
                   :

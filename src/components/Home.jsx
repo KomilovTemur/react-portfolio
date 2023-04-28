@@ -10,7 +10,7 @@ export default function Home() {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row ">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
+          <h2 className="text-4xl sm:text-7xl md:text-7xl font-bold text-white md:my-30">
             I'm a Full Stack developer
           </h2>
           <p className="text-gray-300 py-4 max-w-md">

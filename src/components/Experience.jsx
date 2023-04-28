@@ -57,7 +57,7 @@ const Experience = () => {
     {
       src: socketio,
       title: "socketio",
-      style: "shadow-black",
+      style: "shadow-white",
     },
     {
       src: expressjs,
@@ -78,7 +78,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-white">
         <div className="pb-8">
@@ -92,7 +92,7 @@ const Experience = () => {
           {techs.map(({ src, title, style }, index) => (
             <div
               key={index}
-              className={`shadow-md ${style} hover:scale-105 duration-500 py-2 rouned-lg`}
+              className={`shadow-md ${style} hover:scale-105 duration-500 py-2 rounded-lg`}
             >
               <img alt="..." src={src} className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>

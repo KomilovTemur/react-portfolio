@@ -9,9 +9,15 @@ import basicapi from "../assets/portfolio/basicapi.png";
 import bookLibaryApi from "../assets/portfolio/bookLibaryApi.png";
 import kardiodev from "../assets/portfolio/cardiocenter.uz.png";
 
-
 const Portfolio = () => {
   const portfolios = [
+    {
+      src: "https://i.ibb.co/JdMyXjx/image.png",
+      projectName: "Todo App",
+      demo: "https://typescript-react-todo-app.vercel.app/",
+      code: "https://github.com/KomilovTemur/typescript-react-todoApp",
+      codeType: "open-source"
+    },
     {
       src: kardiodev,
       projectName: "cardiocenter.uz",

@@ -20,16 +20,18 @@ export default function Home() {
             javascript developer, currently working on my own projects. I want
             to be a great senior developer in the future!
           </p>
-          <button
+          <a
+          href="https://github.com/KomilovTemur"
+          target="_blank"
             className="group w-fit px-6 py-3 my-2 flex items-center rounded-md text-white
           bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer
           "
           >
-            Portfolio
-            <span className="ml-2 group-hover:rotate-90 duration-300">
+            GitHub
+            <span className="ml-2 group-hover duration-300">
               <MdOutlineKeyboardArrowRight size={20} />
             </span>
-          </button>
+          </a>
         </div>
         <div>
           <img

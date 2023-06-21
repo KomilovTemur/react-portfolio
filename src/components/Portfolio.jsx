@@ -12,6 +12,13 @@ import kardiodev from "../assets/portfolio/cardiocenter.uz.png";
 const Portfolio = () => {
   const portfolios = [
     {
+      src: "https://i.ibb.co/GVZB2QM/Screenshot-54.png",
+      projectName: "E-commerce",
+      demo: "http://e-commerce.na4u.ru/products?page=1",
+      code: "https://github.com/KomilovTemur/ecomerce-laravel",
+      codeType: "open-source"
+    },
+    {
       src: "https://i.ibb.co/JdMyXjx/image.png",
       projectName: "Todo App",
       demo: "https://typescript-react-todo-app.vercel.app/",

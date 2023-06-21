@@ -11,6 +11,8 @@ import socketio from "../assets/socketio.png"
 import expressjs from "../assets/expressjs.png"
 import redis from "../assets/redis.png"
 import linux from "../assets/linux.png"
+import mysql from "../assets/mysql.png"
+import php from "../assets/php.png"
 
 const Experience = () => {
   const techs = [
@@ -28,6 +30,21 @@ const Experience = () => {
       src: javascript,
       title: "JavaScript",
       style: "shadow-yellow-500",
+    },
+    {
+      src: php,
+      title: "PHP",
+      style: "shadow-indigo-900",
+    },
+    {
+      src: "https://laravel.com/img/logomark.min.svg",
+      title: "Laravel",
+      style: "shadow-red-500",
+    },
+    {
+      src: mysql,
+      title: "MySql || Maria DB",
+      style: "shadow-orange-500",
     },
     {
       src: reactJs,

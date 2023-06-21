@@ -8,9 +8,17 @@ import restaurant from "../assets/portfolio/restaurant.png";
 import basicapi from "../assets/portfolio/basicapi.png";
 import bookLibaryApi from "../assets/portfolio/bookLibaryApi.png";
 import kardiodev from "../assets/portfolio/cardiocenter.uz.png";
+import gym_ecommerce from "../assets/portfolio/gym-ecommerce.png";
 
 const Portfolio = () => {
   const portfolios = [
+    {
+      src: gym_ecommerce,
+      projectName: "GYM E-commerce",
+      demo: "http://gym-ecommerce.na4u.ru/",
+      code: "https://github.com/KomilovTemur/ecommerce-gym",
+      codeType: "open-source"
+    },
     {
       src: "https://i.ibb.co/GVZB2QM/Screenshot-54.png",
       projectName: "E-commerce",

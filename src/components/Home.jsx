@@ -17,7 +17,7 @@ export default function Home() {
           </h2>
           <p className="text-gray-300 py-4 max-w-md">
             Hi, my name is Temur, I'm { myAge } years old, and I'm a full stack
-            javascript developer, currently working on my own projects. I want
+            javascript & php/laravel developer, currently working on my own projects. I want
             to be a great senior developer in the future!
           </p>
           <a

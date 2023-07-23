@@ -11,8 +11,14 @@ import kardiodev from "../assets/portfolio/cardiocenter.uz.png";
 import gym_ecommerce from "../assets/portfolio/gym-ecommerce.png";
 
 const Portfolio = () => {
-  // https://i.ibb.co/c3mjNGP/image.png
   const portfolios = [
+    {
+      src: "https://i.ibb.co/LkbnhRC/image.png",
+      projectName: "chayxanshik.uz",
+      demo: "https://chayxanshik.uz/",
+      code: "",
+      codeType: "private"
+    },
     {
       src: "https://i.ibb.co/c3mjNGP/image.png",
       projectName: "Rokki.uz",
@@ -110,7 +116,7 @@ const Portfolio = () => {
       demo: "https://documenter.getpostman.com/view/25011836/2s8Z6u3ZeZ",
       code: "https://github.com/KomilovTemur/my-api-MERN",
       codeType: "open-source"
-    } 
+    }
   ];
   return (
     <div

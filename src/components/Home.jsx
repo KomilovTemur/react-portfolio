@@ -36,7 +36,7 @@ export default function Home() {
         <div>
           <img
             src={HeroImage}
-            alt="tim"
+            alt="tim_coder"
             className="rounded-2xl mx-auto w-2/3 md:w-full"
           />
         </div>

@@ -27,6 +27,13 @@ const Portfolio = () => {
       codeType: "private"
     },
     {
+      src: kardiodev,
+      projectName: "cardiocenter.uz",
+      demo: "https://www.cardiocenter.uz/",
+      code: "",
+      codeType: "private"
+    },
+    {
       src: gym_ecommerce,
       projectName: "GYM E-commerce",
       demo: "http://gym-ecommerce.na4u.ru/",
@@ -46,13 +53,6 @@ const Portfolio = () => {
       demo: "https://typescript-react-todo-app.vercel.app/",
       code: "https://github.com/KomilovTemur/typescript-react-todoApp",
       codeType: "open-source"
-    },
-    {
-      src: kardiodev,
-      projectName: "cardiocenter.uz",
-      demo: "https://www.cardiocenter.uz/",
-      code: "",
-      codeType: "private"
     },
     {
       src: myBaseCamp,

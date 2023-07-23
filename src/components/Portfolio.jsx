@@ -11,7 +11,15 @@ import kardiodev from "../assets/portfolio/cardiocenter.uz.png";
 import gym_ecommerce from "../assets/portfolio/gym-ecommerce.png";
 
 const Portfolio = () => {
+  // https://i.ibb.co/c3mjNGP/image.png
   const portfolios = [
+    {
+      src: "https://i.ibb.co/c3mjNGP/image.png",
+      projectName: "Rokki.uz",
+      demo: "https://rokki.uz/",
+      code: "",
+      codeType: "private"
+    },
     {
       src: gym_ecommerce,
       projectName: "GYM E-commerce",

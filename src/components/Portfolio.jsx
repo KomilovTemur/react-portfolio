@@ -12,6 +12,14 @@ import gym_ecommerce from "../assets/portfolio/gym-ecommerce.png";
 
 const Portfolio = () => {
   const portfolios = [
+    // https://i.ibb.co/k8zhD2X/Screenshot-from-2023-08-20-10-52-34.png
+    {
+      src: "https://i.ibb.co/k8zhD2X/Screenshot-from-2023-08-20-10-52-34.png",
+      projectName: "neoinsurance.uz (continues)",
+      demo: "https://neoinsurance.uz/",
+      code: "",
+      codeType: "private"
+    },
     {
       src: "https://i.ibb.co/LkbnhRC/image.png",
       projectName: "chayxanshik.uz",

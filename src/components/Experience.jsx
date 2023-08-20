@@ -47,6 +47,11 @@ const Experience = () => {
       style: "shadow-orange-500",
     },
     {
+      src: "https://i.ibb.co/jrv720T/pngwing-com.png",
+      title: "VueJs",
+      style: "shadow-green-600",
+    },
+    {
       src: reactJs,
       title: "ReactJs",
       style: "shadow-blue-600",

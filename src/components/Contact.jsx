@@ -1,6 +1,33 @@
 import React from "react";
+import { useState, useEffect } from "react";
+import { supabase } from "../utils/supabase";
+
+// Create a single supabase client for interacting with your database
 
 const Contact = () => {
+  const [loading, setLoading] = useState(false);
+  const sendForm = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    try {
+      const response = await supabase
+        .from("messages")
+        .insert(
+          {
+            name: e.target.name.value,
+            email: e.target.email.value,
+            message: e.target.message.value,
+          },
+        )
+        .select();
+      console.log(response);
+    } catch (error) {
+      console.log(error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <div
       name="contact"
@@ -17,25 +44,29 @@ const Contact = () => {
           <form
             action="https://getform.io/f/8f28ba7d-e2f2-48e5-a3b6-4917c3e15b3c"
             method="POST"
+            onSubmit={sendForm}
             className="flex flex-col w-full md:w-1/2"
           >
             <input
               type="text"
               name="name"
+              required
               placeholder="Enter your name"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <input
-              type="text"
+              type="email"
               name="email"
+              required
               placeholder="Enter your email"
               className="p-2 bg-transparent border-2 rounded-md my-4 text-white focus:outline-none"
             />
             <textarea
               type="text"
-              name="massage"
+              name="message"
+              required
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
-              placeholder="Enter your massage "
+              placeholder="Enter your message "
             ></textarea>
             <button
               className="text-white bg-gradient-to-b from-cyan-500

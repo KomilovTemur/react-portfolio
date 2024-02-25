@@ -6,21 +6,26 @@ import { supabase } from "../utils/supabase";
 
 const Contact = () => {
   const [loading, setLoading] = useState(false);
+  const [messageStatus, setMessageStatus] = useState("");
   const sendForm = async (e) => {
     e.preventDefault();
     setLoading(true);
+    setMessageStatus("");
     try {
       const response = await supabase
         .from("messages")
-        .insert(
-          {
-            name: e.target.name.value,
-            email: e.target.email.value,
-            message: e.target.message.value,
-          },
-        )
+        .insert({
+          name: e.target.name.value,
+          email: e.target.email.value,
+          message: e.target.message.value,
+        })
         .select();
-      console.log(response);
+      if (response.status == 201) {
+        setMessageStatus("Thank you! Your message has been received!");
+        e.target.name.value = "";
+        e.target.email.value = "";
+        e.target.message.value = "";
+      }
     } catch (error) {
       console.log(error);
     } finally {
@@ -38,7 +43,12 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-400">
             Contact
           </p>
-          <p className="py-6">Submit the form bellow to get touch in with me</p>
+          <p className="py-6">Submit the form below to get touch in with me</p>
+          {messageStatus != "" ? (
+            <p className="py-6 text-green-300 font-semibold">{messageStatus}</p>
+          ) : (
+            <></>
+          )}
         </div>
         <div className="flex justify-center items-center">
           <form
@@ -72,7 +82,7 @@ const Contact = () => {
               className="text-white bg-gradient-to-b from-cyan-500
              to-blue-500 px-6 py-3 max-auto my-8 flex justify-center items-center rounded-md hover:scale-110 duration-300"
             >
-              Submit
+              {!loading ? "Submit" : "Please wait..."}
             </button>
           </form>
         </div>

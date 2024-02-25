@@ -2,7 +2,7 @@ import React from "react";
 import HeroImage from "../assets/heroImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
-export default function Home() {
+export default function Main() {
   let yearOfBirth = 2004
   let myAge = new Date().getFullYear() - yearOfBirth
   return (

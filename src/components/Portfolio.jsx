@@ -120,7 +120,7 @@ const Portfolio = () => {
     },
     {
       src: bookLibaryApi,
-      projectName: "Books Libary Api",
+      projectName: "Books Library Api",
       demo: "https://documenter.getpostman.com/view/25011836/2s8Z6u3ZeZ",
       code: "https://github.com/KomilovTemur/my-api-MERN",
       codeType: "open-source"
@@ -160,7 +160,7 @@ const Portfolio = () => {
                   <a
                     aria-disabled="true"
                     className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-bold text-gray-500 cursor-default"
-                  >,
+                  >
                     Code
                   </a>
                   :
